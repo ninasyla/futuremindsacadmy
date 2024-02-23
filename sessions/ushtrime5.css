@@ -1,0 +1,16 @@
+.div h1{
+    background-color: violet;
+}
+
+.box{
+background-color: red;
+}
+
+
+.tree{
+background-color: yellow;
+}
+
+.tree:hover .cat{
+    background-color: purple;
+}
