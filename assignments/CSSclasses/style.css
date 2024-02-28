@@ -1,0 +1,15 @@
+.light{
+    background-color: light grey;
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.new{
+    border: 2px solid;
+    border-color: yellow;
+    box-shadow: (2px,2px,2px) gray;
+}
