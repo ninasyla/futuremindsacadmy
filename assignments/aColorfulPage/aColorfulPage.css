@@ -1,0 +1,20 @@
+.title{
+    background-color: rgb(165,75,81);
+    color: white;
+}
+.links{
+    color: rgb(171, 22, 32);
+    background-color:rgba(0, 0, 0, 0.322)
+}
+
+ body{
+    background-image: url("./rain.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+
+ .text{
+    background-color: red;
+    color: black;
+ }
+
