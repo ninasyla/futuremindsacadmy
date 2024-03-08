@@ -1,62 +1,70 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
+
+
+
 /*Global*/
-.textCenter{
+.textCenter {
     text-align: center;
+    background-image: url(./moneyy.jpg)
 }
-a,li{
+
+a,
+li {
     list-style: none;
     text-decoration: none;
 }
 
-.bgRed{
-    background-color:red
+.bgRed {
+    background-color: red
 }
 
-.bgRed:hover{
-    background-color:rgb(116,8,8)
+.bgRed:hover {
+    background-color: rgb(116, 8, 8)
 }
 
-.bgGreen{
+.bgGreen {
     background-color: green;
 }
-.bgGreen:hover{
-    background-color: rgb(6,44,6);
+
+.bgGreen:hover {
+    background-color: rgb(6, 44, 6);
 }
 
-.bgBlue{
+.bgBlue {
     background-color: blue;
 }
 
-.bgBlue:hover{
-    background-color: rgb(16,16,123);
+.bgBlue:hover {
+    background-color: rgb(16, 16, 123);
 }
 
 
-.bgAqua{
-    background-color:aqua
+.bgAqua {
+    background-color: aqua
 }
 
-.bgAqua:hover{
-    background-color:rgb(0,84,195)
+.bgAqua:hover {
+    background-color: rgb(0, 84, 195)
 }
 
-.bgPink{
+.bgPink {
     background-color: pink;
 }
-.bgPink:hover{
-    background-color:rgb(104,14,93);
+
+.bgPink:hover {
+    background-color: rgb(104, 14, 93);
 }
 
-.bgWhite{
+.bgWhite {
     background-color: white;
 }
 
 /*Main*/
-.card{
+.card {
 
     border-radius: 15px;
     width: 90%;
@@ -65,8 +73,6 @@ a,li{
     border: 10px solid transparent;
 }
 
-.card:hover{
+.card:hover {
     border: 10px solid black;
 }
-
-
