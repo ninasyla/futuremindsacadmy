@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: red;
+    width: 100%;
+}
+
+main{
+    background-color: pink;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+
+}
+
+aside{
+    background-color: green;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2 fr;
+    height: 100vh;
+}
+
+div{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+main h1{
+    background-color: yellow;
+}
