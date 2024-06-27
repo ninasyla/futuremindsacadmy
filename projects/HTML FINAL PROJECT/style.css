@@ -3,15 +3,15 @@
     padding: 0;
 }
 
-
-
-
 /*Global*/
 .textCenter {
-    text-align: center;
+    text-align: center; 
     background-image: url(./moneyy.jpg)
 }
 
+.background{
+    background-color: lightblue;
+}
 a,
 li {
     list-style: none;
@@ -63,6 +63,15 @@ li {
     background-color: white;
 }
 
+.dInline-block{
+    display: inline-block;
+}
+
+.dInline{
+    display: inline;
+    margin: 0 20px;
+}
+
 /*Main*/
 .card {
 
@@ -76,3 +85,4 @@ li {
 .card:hover {
     border: 10px solid black;
 }
+

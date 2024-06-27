@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List cliking</title>
+    <style>
+        ul{
+            display: flex;
+            gap: 10px;
+        }
+        ul li {
+            list-style-type: none;
+            padding: 10px;
+            margin-bottom: 5px;
+            width: fit-content;
+            background-color: bisque;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li id="first">gu gu pici gu</li>
+        <li id="second">Malesorja</li>
+        <li id="third">Beni ecen vet</li>
+        <li id="fourth">aventurat e tom sojerit</li>
+        <li id="fifth">hamleti</li>
+    </ul>
+
+    <h1 id="text">Fetch Title</h1>
+
+<script>
+     const mybooks = document.querySelector('#mybooks');
+    const text = document.querySelector ('#text');
+     
+    for(let i=0; i<mybooks.children.lenght; i++){
+        mybooks.children[i].addEventListener('click', function(){
+            title.textContent = this.textContent;
+        });
+    }
+
+</script>
+</body>
+</html>

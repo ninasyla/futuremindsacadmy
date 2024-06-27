@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    grid-template-columns: auto 1fr;
+    height: 100vh;
+}
+
+aside {
+    padding: 20px 50px 
+    bac
+}
+ 
+section{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+div{
+    background-color: green;
+}

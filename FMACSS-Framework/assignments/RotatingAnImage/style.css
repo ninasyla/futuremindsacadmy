@@ -1,0 +1,9 @@
+.image{ 
+filter: blur(10px);
+}
+
+.image:hover{
+    transition-delay: .2s;
+    filter: blur(0px);
+    transform: rotate(720deg)
+}

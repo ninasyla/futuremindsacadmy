@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>login</h1>
+        <label for="email">Email</label>
+        <input type="text" placeholder="john@email" id="email">
+        <label for="password">Password</label>
+        <input type="password" name="" id="password" placeholder="****"><br><br>
+
+        <p id="msg"></p>
+        <button onclick="checkLogin">Login</button>
+
+     <script>
+        function checkLogin(){
+            const email = document.querySelector('#email');
+            const password = document.querySelector('#password')
+            const msg = document.querySelector('#msg')
+
+            if(email== 'ridvan@eduongo.com' && password.value='123456'){
+                console.log('Correct')
+                msg.textContent = "Correct"
+            }
+            else{
+                msg.style.color='red'
+                msg.textContent="Incorrect"
+                console.log('Incorrect')
+            }
+
+        }
+     </script>
+
+    </div>
+</body>
+
+</html>

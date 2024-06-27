@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The first Native API</title>
+</head>
+
+<body>
+
+
+
+
+    <script>
+
+        let website = prompt('Which website do you want to visit?');
+
+        let websiteUrl = `https://www.${website}.com`;
+
+        location.href = websiteUrl;
+
+        let googleSearch = prompt('What do you want to search on Google?');
+
+        let googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(googleSearch)}`;
+
+        location.href = googleSearchUrl;
+
+        let youtubeSearch = prompt('What do you want to search on YouTube?');
+
+        let youtubeSearchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(youtubeSearch)}`;
+
+        location.href = youtubeSearchUrl;
+    </script>
+</body>
+
+</html>
